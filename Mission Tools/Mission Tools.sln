@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mission Tools", "Mission Tools.csproj", "{F60C7BDD-6E63-46F6-86F4-F8184B0AADD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F60C7BDD-6E63-46F6-86F4-F8184B0AADD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60C7BDD-6E63-46F6-86F4-F8184B0AADD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60C7BDD-6E63-46F6-86F4-F8184B0AADD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60C7BDD-6E63-46F6-86F4-F8184B0AADD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33989BAD-D1B4-4AB7-A76C-CF49EB21E23A}
+	EndGlobalSection
+EndGlobal
