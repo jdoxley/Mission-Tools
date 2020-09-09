@@ -108,6 +108,13 @@ namespace Thunder
                     var options = RegexOptions.Multiline;
                     Regex regex = new Regex(pattern, options);
                     var matches = regex.Replace(missionTxt, "addons[] = {};");
+                    if (string.IsNullOrEmpty(matches))
+                    {
+                        IErrorDialog.Title = "Error: An Error Occured";
+                        IErrorText.Text = "One or more missions failed to have its dependencies removed.\nPlease report this to Thunder immediatly.";
+                        IErrorDialog.IsOpen = true;
+                        return;
+                    }
                     File.Delete(path);
                     File.Create(path).Close();
                     File.WriteAllText(path, matches);
@@ -127,6 +134,13 @@ namespace Thunder
                 var options = RegexOptions.Multiline;
                 Regex regex = new Regex(pattern, options);
                 var matches = regex.Replace(missionTxt, "addons[] = {};");
+                if (string.IsNullOrEmpty(matches))
+                {
+                    IErrorDialog.Title = "Error: An Error Occured";
+                    IErrorText.Text = "One or more missions failed to have its dependencies removed.\nPlease report this to Thunder immediatly.";
+                    IErrorDialog.IsOpen = true;
+                    return;
+                }
                 File.Delete(path);
                 File.Create(path).Close();
                 File.WriteAllText(path, matches);

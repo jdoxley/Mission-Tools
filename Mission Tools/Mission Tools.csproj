@@ -9,6 +9,8 @@
     <Company>Mission Builders</Company>
     <PackageId>Mission_Tools</PackageId>
     <ApplicationIcon>501st.ico</ApplicationIcon>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
